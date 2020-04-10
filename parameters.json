@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "76ca2a1e-2c24-44e5-83a4-8aa3c17147d5"
+        },
+        "name": {
+            "value": "pkktest2"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-Testlab1-a591"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Testlab1"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "errorLink": {
+            "value": "https://pkktest2.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+        }
+    }
+}
